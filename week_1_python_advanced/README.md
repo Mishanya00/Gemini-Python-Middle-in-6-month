@@ -38,12 +38,6 @@
 **Practical Tasks:**
 1.  **Custom Iterator:** Write a class `DateRange` that takes a start_date and end_date and iterates day by day without generating a list.
 2.  **Log Parser:** Create a dummy 100MB text file (simulate logs). Write a generator function that reads the file line-by-line, filters only lines containing "ERROR", and yields the parsed timestamp and message.
-3.  **Pipeline Processing:** Chain three generators:
-    *   `gen_read_file`: yields lines.
-    *   `gen_parse`: takes lines, yields dicts.
-    *   `gen_filter`: takes dicts, yields only high-value transactions.
-    *   *Run this pipeline and observe that memory usage remains flat regardless of file size.*
-
 ---
 
 ### Day 3: Advanced Decorators (Meta-programming Lite)
