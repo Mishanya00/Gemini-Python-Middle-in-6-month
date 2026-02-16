@@ -20,3 +20,5 @@ while True:
         else:
             response = 'Hello, world!\n'.encode()
             client_socket.send(response)
+        
+    client_socket.close()
